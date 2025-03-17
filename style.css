@@ -1,6 +1,37 @@
 ul {
+    display: flex;
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
+}
+
+li {
+    margin-right: 30px;
+    padding: 10px;
+}
+
+body {
+    width: 50%;
+    margin: 0 auto;
+    background-color: #f1f1f1;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+th {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: center;
+}
+
+img {
+    width:100%;
+    height: auto;
+    margin-top: 20px;
 }
